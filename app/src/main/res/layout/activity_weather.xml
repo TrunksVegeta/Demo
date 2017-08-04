@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatch"
+    android:background="@color/gray_light"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/weather_bg"
+        style="@style/MatchMatch"
+        android:scaleType="centerCrop" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/weather_drawerLayout"
+        style="@style/MatchMatch">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/weather_refresh"
+            style="@style/MatchMatch">
+
+            <ScrollView
+                android:id="@+id/weather_scrollView"
+                style="@style/MatchMatch"
+                android:overScrollMode="never"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    style="@style/MatchWrap"
+                    android:fitsSystemWindows="true"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/weather_title" />
+
+                    <include layout="@layout/weather_now" />
+
+                    <include layout="@layout/weather_forecast" />
+
+                    <include layout="@layout/weather_quality" />
+
+                    <include layout="@layout/weather_suggestion" />
+                </LinearLayout>
+            </ScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <fragment
+            android:id="@+id/WeatherFragment"
+            android:name="com.tools.weather.frag.WeatherFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start" />
+    </android.support.v4.widget.DrawerLayout>
+</FrameLayout>

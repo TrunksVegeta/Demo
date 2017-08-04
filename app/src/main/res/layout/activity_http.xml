@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/MatchMatch"
+    android:background="@color/white">
+
+    <cn.bingoogolapple.bgabanner.BGABanner
+        android:id="@+id/http_banner"
+        style="@style/Banner"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:banner_transitionEffect="rotate" />
+
+    <LinearLayout
+        android:id="@+id/http_linear"
+        style="@style/MatchWrap"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/http_banner"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_106"
+            android:layout_marginTop="@dimen/dp_28"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:divider="@drawable/liner"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/okhttp"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="@dimen/padding_top"
+                android:drawableTop="@drawable/http_text_pic"
+                android:gravity="center"
+                android:text="@string/http_text"
+                android:textColor="@drawable/http_text_color"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="@dimen/padding_top"
+                android:drawableTop="@drawable/http_text_pic"
+                android:gravity="center"
+                android:text="@string/http_text"
+                android:textColor="@drawable/http_text_color"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="@dimen/padding_top"
+                android:drawableTop="@drawable/http_text_pic"
+                android:gravity="center"
+                android:text="@string/http_text"
+                android:textColor="@drawable/http_text_color"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginRight="@dimen/dp_15"
+            android:background="@color/white4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_106"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:divider="@drawable/liner"
+            android:showDividers="middle">
+
+            <TextView
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="@dimen/padding_top"
+                android:drawableTop="@drawable/http_text_pic"
+                android:gravity="center"
+                android:text="@string/http_text"
+                android:textColor="@drawable/http_text_color"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="@dimen/padding_top"
+                android:drawableTop="@drawable/http_text_pic"
+                android:gravity="center"
+                android:text="@string/http_text"
+                android:textColor="@drawable/http_text_color"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="@dimen/padding_top"
+                android:drawableTop="@drawable/http_text_pic"
+                android:gravity="center"
+                android:text="@string/http_text"
+                android:textColor="@drawable/http_text_color"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/http_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/white1">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/view"
+            android:gravity="center"
+            android:text="@string/http_buttom"
+            android:textColor="@color/gray1"
+            android:textSize="@dimen/sp_10" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/MatchWrap"
+    android:layout_margin="@dimen/dp_15"
+    android:background="@color/gray_deep">
+
+    <TextView
+        style="@style/WrapWrap"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_15"
+        android:text="@string/weather_quality"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_20"/>
+
+    <LinearLayout
+        style="@style/MatchWrap"
+        android:layout_margin="@dimen/dp_15">
+
+        <RelativeLayout
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                style="@style/MatchWrap"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:id="@+id/weather_quality_text"
+                    style="@style/WrapWrap"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dp_40" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/WrapWrap"
+                    android:layout_gravity="center"
+                    android:text="@string/weather_quality_bottom_text"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                style="@style/MatchWrap"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:id="@+id/weather_quality_text2"
+                    style="@style/WrapWrap"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dp_40" />
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:layout_gravity="center"
+                    android:text="@string/weather_quality_bottom_text2"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

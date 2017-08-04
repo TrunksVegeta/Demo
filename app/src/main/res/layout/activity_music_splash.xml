@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatch"
+    android:background="@mipmap/music_splash_bg">
+
+    <RelativeLayout
+        style="@style/MatchMatch">
+
+        <ImageView
+            android:id="@+id/music_splash_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_200"
+            android:src="@mipmap/music_splash_text" />
+
+        <TextView
+            style="@style/MatchWrap"
+            android:text="@string/music_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16"
+            android:layout_below="@+id/music_splash_title"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dp_52"/>
+    </RelativeLayout>
+</FrameLayout>

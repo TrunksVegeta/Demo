@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="translucent_blue">#0e6495ED</color>
+    <color name="translucent">#00000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="home">#cdcdcd</color>
+    <color name="black">#000000</color>
+    <color name="gray_deep">#8000</color>
+    <color name="gray">#808080</color>
+    <color name="gains_boro">#DCDCDC</color>
+    <color name="gray1">#a0a0a0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white1">#fafafa</color>
+    <color name="white2">#c7c7c7</color>
+    <color name="white3">#cccccc</color>
+    <color name="white4">#e3e3e3</color>
+    <color name="white5">#f0f0f0</color>
+    <color name="blue">#1d8fe1</color>
+
+
+    <!-- 透明半透明色值 -->
+    <color name="transparent_half">#66000000</color>
+    <color name="yellow_lemon">#FFFACD</color>
+    <color name="gray_light">#DFDFDF</color>
+    <color name="gray_white">#F5F5F5</color>
+    <color name="gray_slate">#708090</color>
+    <color name="blue_light">#67C2C2</color>
+    <color name="blue_lights">#4FB7B9</color>
+    <color name="green_lights">#4fb8b9</color>
+
+    <color name="light_blue">#A8DFF4</color>
+    <color name="light_green">#D3E992</color>
+    <color name="light_red">#FFAFAF</color>
+    <color name="light_yellow">#FFECC0</color>
+
+    <color name="dark_blue">#0099CC</color>
+    <color name="dark_green">#669900</color>
+    <color name="dark_red">#CC0000</color>
+    <color name="dark_yellow">#FF8A00</color>
+</resources>
